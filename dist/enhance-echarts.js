@@ -4,12 +4,12 @@
  *
  * author 你好2007 < https://hai2007.gitee.io/sweethome >
  *
- * version 0.1.0
+ * version 0.1.1
  *
  * Copyright (c) 2022 hai2007 走一步，再走一步。
  * Released under the MIT license
  *
- * Date:Sat Jul 23 2022 17:10:23 GMT+0800 (中国标准时间)
+ * Date:Thu Aug 11 2022 21:08:38 GMT+0800 (中国标准时间)
  */
 (function () {
     'use strict';
@@ -104,7 +104,7 @@
 
             watchDom(dom, function () {
 
-                var options = JSON.parse(JSON.stringify(instance.getOption()));
+                var options = instance.getOption();
 
                 instance.clear();
                 instance.resize({

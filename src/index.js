@@ -9,7 +9,7 @@ var enhanceEcharts = function (echarts) {
 
         watchDom(dom, function () {
 
-            var options = JSON.parse(JSON.stringify(instance.getOption()))
+            var options = instance.getOption()
 
             instance.clear();
             instance.resize({

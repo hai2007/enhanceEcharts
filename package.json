@@ -1,6 +1,6 @@
 {
   "name": "enhance-echarts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "一个加强版本的echarts，比如可以自动监听画布大小改变并进行重绘。",
   "main": "dist/enhance-echarts.min.js",
   "scripts": {
